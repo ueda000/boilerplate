@@ -1,0 +1,12 @@
+{
+  "main": "index.ts",
+  "scripts": {
+    "preinstall": "npx only-allow yarn",
+    "start": "npx ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
